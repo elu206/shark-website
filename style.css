@@ -1,0 +1,91 @@
+body, html{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  font-family: sans-serif;
+  background-color: #fff
+}
+
+#navigationBar {
+  position:fixed;
+  top: 0;
+  width: 100%;
+  height: 100px;
+  background-color: #0003b5
+}
+
+#navigationBar a {
+  color:#fff;
+  float:right;
+  font-size: 20px;
+  text-decoration:underline;
+  padding: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+#bottomBar {
+  position:fixed;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  background-color: #0003b5
+}
+
+#heroBanner {
+  font-family: 'Poppins', sans-serif;
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Prionace_glauca_1.jpg/1200px-Prionace_glauca_1.jpg');
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #fff;
+  padding-left: 50px;
+  padding-top: 200px;
+}
+
+#mainContainer{
+  font-family: 'Poppins', sans-serif;
+  padding-bottom: 100px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#mainTitleText {
+  font-family: 'Poppins', sans-serif;
+  font-size: 100pt;
+  padding-bottom: 50px;
+}
+
+#moreText {
+  padding-bottom: 50px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.contentSectionContainer {
+  font-family: 'Poppins', sans-serif;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.sectionHeader {
+  font-size: 50pt;
+  color: #257bcc
+}
+
+p {
+  font-size: 20pt;
+}
+
+.thumbnailContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.thumbnailImage {
+  width:33%;
+  height:350px;
+  object-fit: cover;
+}
